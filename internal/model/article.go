@@ -1,3 +1,5 @@
+package model
+
 type Article struct {
 	*Model
 	Title         string `json:"title"`
